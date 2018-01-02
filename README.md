@@ -1,14 +1,14 @@
 This is a simple form using bootstrap 4 and reactstrap.  The telephone number component has some issues which will need to be reviewed in time.
 
-If the app is offline then then intro text changes at the top of the page. 
+If the app is offline then then intro text changes at the top of the page.
 
 To save data, its first saved (encrypted) into a local pouchdb then replicated across to a couchdb on the server.  In this demo the server is the same machine. The URL is hardcoded in showResults.js.
 
 To install couchdb on your local machine follow the guide at pouchdb.com/guides/setup-couchdb.com:
-sudo apt-get install couchdb
+<code>sudo apt-get install couchdb
 curl localhost:5984 // check service up ok
 npm install -g add-cors-to-couchdb
-add-cors-to-couchdb
+add-cors-to-couchdb</code>
 
 
 
