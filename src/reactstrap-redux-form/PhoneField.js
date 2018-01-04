@@ -7,7 +7,7 @@ import IntlTelInput from 'react-bootstrap-intl-tel-input'
 class PhoneField extends React.Component {
 
   render() {
-    var {input, meta: { touched, error, warning }, ...custom} = this.props;
+    var {input, meta, ...custom} = this.props;
 
     function onChangeHandler(data) {
       input.onChange(data)
